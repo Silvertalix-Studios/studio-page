@@ -45,7 +45,7 @@ function checkFOV() {
     }
     else {
         if (FOVPASSED === false) {
-            typeWriter("Agenticy \n Casual \n Delphi \n Featherwisker \n Galactic Dreams \n Jay \n Mds \n Shoma \n Rose \n Taseen \n The Apparation", $("#info"), 100, 3000)
+            typeWriter("Agenticy \n Casual \n Delphi \n Featherwisker \n Galactic Dreams \n Jay \n Mds \n Shoma \n Rose \n Taseen \n The Apparation \n Wellwright", $("#info"), 100, 3000)
             FOVPASSED = true
         }
     }
