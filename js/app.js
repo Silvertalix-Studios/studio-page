@@ -41,6 +41,7 @@ function checkFOV() {
         document.body.onclick = () => {
             location.reload()
         }
+        clearInterval(check)
     }
     else {
         if (FOVPASSED === false) {
@@ -50,5 +51,5 @@ function checkFOV() {
     }
 }
 
-setInterval(checkFOV, 1000)
+let check = setInterval(checkFOV, 1000)
 checkFOV()
