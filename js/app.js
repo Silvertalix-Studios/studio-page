@@ -22,6 +22,8 @@ function typeWriter(text, element, delay = 100, startAfter = 0) {
     }, startAfter)
 }
 
+let FOVPASSED = false
+
 function checkFOV() {
     if (window.innerHeight >= window.innerWidth) {
         $("#content").innerHTML = ""
@@ -41,8 +43,11 @@ function checkFOV() {
         }
     }
     else {
-        typeWriter("Agenticy \n Casual \n Delphi \n Featherwisker \n Galactic Dreams \n Jay \n Rose \n Taseen \n The Apparation", $("#info"), 100, 3000)
+        if (FOVPASSED === false) {
+            typeWriter("Agenticy \n Casual \n Delphi \n Featherwisker \n Galactic Dreams \n Jay \n Mds \n Shoma \n Rose \n Taseen \n The Apparation", $("#info"), 100, 3000)
+            FOVPASSED = true
+        }
     }
 }
 
-checkFOV()
+setInterval(checkFOV, 1000)
