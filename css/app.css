@@ -21,6 +21,7 @@ body {
     top: 5vh;
     left: 20vw;
     position: fixed;
+    pointer-events: none;
     z-index: 3;
 }
 #info {
