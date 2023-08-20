@@ -51,3 +51,4 @@ function checkFOV() {
 }
 
 setInterval(checkFOV, 1000)
+checkFOV()
