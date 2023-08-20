@@ -18,7 +18,7 @@ body {
 #title {
     width: 60vw;
     height: 15vh;
-    top: 5vh;
+    top: 2vh;
     left: 20vw;
     position: fixed;
     pointer-events: none;
@@ -31,7 +31,7 @@ body {
     text-align: center;
     text-shadow: 1vw 1vw 1vw black;
     background-color: transparent;
-    top: 22vh;
+    top: 18vh;
     left: 0vw;
     z-index: 3;
     animation: colorSwap 3s infinite;
